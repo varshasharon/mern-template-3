@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(224, 154, 68);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fbfbfb;
+}
+
+.hero-text {
+    max-width: 50%;
+    margin: 50px 0 10px 0;
+    margin-right: 50px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-text span {
+    color: #d78f00;
+}
+.hero-text p{
+    color: #583b00;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.hero-text button{
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 22px;
+    background-color: #ffedca;
+    border-radius: 30px;
+    border: 1px solid rgb(85, 49, 0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.hero-text button a{
+    text-decoration: none;
+    color: #242424;
+    font-size: 16px;
+}
+.hero-image img {
+    border-radius: 20px;
+}
+
+.picks {
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+}
+
+.picks h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.picks p {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 10px;
+    border: none;
+    background: #8a2be2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact {
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px;
+}
+
+form input, form select {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: #ffca43;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
